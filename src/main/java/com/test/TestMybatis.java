@@ -17,5 +17,8 @@ public class TestMybatis {
         SqlSessionFactory build = new SqlSessionFactoryBuilder().build(resourceAsStream);
         SqlSession session = build.openSession();
 
+        SqlSession session1 = build.openSession();
+        SqlSession session2 = build.openSession();
+
     }
 }
