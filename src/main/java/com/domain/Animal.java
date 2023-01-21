@@ -7,7 +7,7 @@ public class Animal implements World{
 
     private String zhonglei;
     
-    private Ingeter age;
+    private Integer age;
 
     public void run(){
         System.out.println("跑起来！");
